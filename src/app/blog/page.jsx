@@ -6,7 +6,7 @@ import Image from "next/image";
 const Blog = () => {
   return (
     <div className={styles.mainContainer}>
-      <Link href="/testId" className={styles.container}>
+      <Link href="/blog/testId" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
             src="/hero.png"
@@ -25,7 +25,7 @@ const Blog = () => {
         </div>
       </Link>
 
-      <Link href="/testId" className={styles.container}>
+      <Link href="/blog/testId" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
             src="/hero.png"
